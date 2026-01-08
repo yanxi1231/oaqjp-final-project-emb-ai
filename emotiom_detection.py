@@ -1,7 +1,7 @@
-def emotion_detector(text_to_analyze):import requests
+import requests
 import json
 
-def sentiment_analyzer(text_to_analyse):
+def emotion_detector(text_to_analyse):
     # Define the URL for the sentiment analysis API
     url = 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
 
